@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: white;
+}
+input {
+	outline: none;
+	border: none;
+}
+.container {
+	width: 100%;
+	min-height: 100vh;
+}
+.login {
+	width: 380px;
+	padding-top: 80px;
+	margin: auto auto 35px auto;
+}
+.welcome_bar {
+	font-size: 50px;
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+}
+.user_icon {
+	width: 120px;
+	display: block;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+.input_style {
+	margin-top: 50px;
+	width: 100%;
+}
+.m-t-80{
+	margin-top: 80px;
+}
+.login_input {
+	width: 100%;
+	height: 40px;
+	padding:0px 5px;
+	color: black;
+	font-size: 25px;
+	border-bottom: 2px solid gray;
+}
+.pass_input {
+	width: 100%;
+	height: 40px;
+	padding:0px 5px;
+	color: black;
+	font-size: 25px;
+	border-bottom: 2px solid gray;
+}
+.container_inButton {
+	margin-top: 60px;
+	width: 100%;
+}
+.inButton {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	background: #57b846;
+	border-radius: 25px;
+	box-shadow: 0 10px 30px 0 rgb(87 184 70 / 50%);
+	transition: 0.5s all;
+}
+.inButton:hover {
+	background: #333333;
+	box-shadow: 0 10px 30px 0 rgb(51 51 51 / 50%);
+}
+.registration {
+	width: 100vw;
+	font-size: 1em;
+	font-family: 'Bree Serif', serif;
+	cursor: pointer;
+}
+#regOn {
+	display: none;
+	position: absolute;
+}
